@@ -23,4 +23,33 @@
         android:textAllCaps="false"
         android:onClick="showThread1Result"
         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/black"
+        />
+    <TextView
+        android:id="@+id/outputResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/threadName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please input thread name"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Thread2"
+        android:textAllCaps="false"
+        android:onClick="showThread1Result2"
+        />
 </LinearLayout>
